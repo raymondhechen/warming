@@ -37,7 +37,7 @@ class App extends Component {
         // console.log('called');
         this.renderer.render(this.scene, this.camera);
         this.frameId = window.requestAnimationFrame(this.animate);
-    };
+    }
 
     // renderer settings
     initRenderer() {
